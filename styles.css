@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 99%;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #121212;
+    width: 100%;
+    color: white;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+}
+
+.img-header {
+    margin-left: 16.5%;
+}
+
+.menu-header {
+    margin-top: 0.1%;
+    margin-left: 0.1%;
+    width: 7%;
+}
+
+.menu-header button {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 6%;
+    border: none;
+    background-color: #121212;
+    color: white;
+    border-radius: 3%;
+}
+
+.menu-header button:hover {
+    background-color: #333333;
+}
+
+.search-header {
+    width: 39%;
+}
+
+.search-header button {
+    width: 7%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-radius: 10%;
+    border: none;
+    background-color: white;
+}
+
+.search-header input {
+    margin-left: -0.76%;
+    padding-bottom: 0.9%;
+    padding-top: 0.9%;
+    padding-right: 50%;
+}
+
+#search {
+    position: absolute;
+    margin-left: -3%;
+    border: none;
+    margin-top: 0.15%;
+    background-color: white;
+    color: grey;
+    padding: 0;
+    padding-top: 0.3%;
+    padding-bottom: 0.2%;
+    width: 2.6%;
+}
+
+.imbd_pro {
+    margin-left: -5.5%;
+    margin-top: 0.3%;
+}
+
+.barre {
+    width: 1%;
+    height: 10%;
+    color: grey;
+}
+
+.favorite button {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: none;
+    background-color: #121212;
+    color: white;
+}
+
+.favorite button:hover {
+    background-color: #333333;
+}
+
+.connexion {
+    margin-top: 0.4%;
+    margin-left: 1%;
+}
+
+.lang {
+    margin-top: 0.4%;
+    margin-left: 1%;
+}
